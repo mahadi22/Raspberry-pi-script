@@ -1,7 +1,8 @@
-# Raspberry Pi Abount
-This simple script are to show status of Raspberry Pi running on Raspberry Pi OS /  Raspbian.
+# Raspberry Pi Script Collection
+This repo are for collection of script for Raspberry Pi running on Raspberry Pi OS /  Raspbian.
 
 # Requirement
+## 1. rpiabout
 `html2text` and `curl` package
 ```markdown
 sudo apt update
