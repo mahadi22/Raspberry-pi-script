@@ -4,6 +4,7 @@ This repo are for collection of script for Raspberry Pi running on Raspberry Pi 
 # Requirement & About Script
 ## 1. rpiabout
 This script show parameter about your system.
+
 ![piaboutss](https://github.com/mahadi22/Raspberry-pi-script/blob/main/img/piabout.png?raw=true "PIABOUT SS")
 
 Package Requirement: `html2text` and `curl` package
@@ -18,6 +19,7 @@ sudo apt-get install html2text curl
 ```
 ## 2. rpistatus
 This script show power status of your system.
-![pistatusss](https://github.com/mahadi22/Raspberry-pi-script/blob/main/img/piabout.png?raw=true "PISTATUS SS")
+
+![pistatusss](https://github.com/mahadi22/Raspberry-pi-script/blob/main/img/pistatus.png?raw=true "PISTATUS SS")
 
 Package Requirement: NONE (`vcgencmd` included in OS)
