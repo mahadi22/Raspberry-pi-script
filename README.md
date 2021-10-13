@@ -1,5 +1,5 @@
 # Raspberry Pi Abount
-This script to show status of Raspberry Pi running on Raspberry Pi OS /  Raspbian.
+This simple script are to show status of Raspberry Pi running on Raspberry Pi OS /  Raspbian.
 
 # Requirement
 `html2text` and `curl` package
