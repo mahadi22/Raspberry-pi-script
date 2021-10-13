@@ -1,6 +1,6 @@
 #! /bin/bash
 # This is a simple bash script to show Raspberry Pi Status.
-# v.0.43
+# v.0.51
 #
 # Copyright 2021 Adi_a12
 #
@@ -24,4 +24,6 @@ OS    : $(grep PRETTY_NAME /etc/os-release | cut -d \" -f 2)
 KERNEL  : $(uname -r)
 UPTIME  : $(uptime)
 IP      : $(ifconfig | grep broadcast |tr -s ' '| cut -d ' ' -f 3)
+Internal IP    : $(ifconfig | grep broadcast |tr -s ' '| cut -d ' ' -f 3)
+External IP    : $(curl -s http://checkip.dyndns.org | html2text | sed -En "s/.*Current IP Address:[^0-9]*([0-9.]+).*/\1/p")"
 "
